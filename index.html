@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taha kasramehr portfolio</title>
+    <!-- bootstrap css -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/b89447aacd.js" crossorigin="anonymous"></script> -->
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script> -->
+    <!-- custom fonts -->
+    <link rel="stylesheet" href="public/css/interfont.css">
+    <link rel="stylesheet" href="public/css/yekanfont.css">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="position-relative">
+  <div class="clearfix request-for-fullscreen-parent">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center d-flex flex-column align-items-center justify-content-center request-for-fullscreen fixed-top">
+          <p class="col-12 col-md-4 sub-title">
+            By maximizing your browser window, you will have a better experience viewing this website.
+          </p>
+          <div class="col-6 justify-content-center p-4 d-flex">
+            <button class="fullscreen-button">fullscreen</button>
+            <button class="ms-3 cancel-button">cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--mouse curser canvas-->
+    <canvas style="position: fixed;top:0;left: 0; z-index: 300; pointer-events: none;"></canvas>
+
+    <div class="page-grid-mask hidden s:block" style="--mouse-x: 9px; --mouse-y: 1399px;"></div>
+    <!---------- section-one ---------->
+    <div id='section-one' class="clearfix z-3 fixed-top">
+      <div class="container position-relative">
+        <div class="row">
+          <nav class="col z-3 py-3 d-flex justify-content-between position-absolute">
+            <div class="col-auto">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
+                <img src="./public/images/tahakasramehr.png" alt="Bootstrap" width="230" height="auto">
+              </a>
+            </div>
+            <div class="col-auto d-none d-md-flex align-items-center">
+              <a href="" class="nav-link pe-3">MBTI .</a>
+              <a href="" class="nav-link px-3">skills .</a>
+              <a href="" class="nav-link px-3">contact .</a>
+              <div class="vr d-none d-lg-flex h-50 mx-lg-2 taha-text-white align-self-center"></div>
+              <a href="" class="nav-link px-3">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="" class="nav-link px-3">
+                <i class="fa fa-github"></i>
+              </a>
+              <div class="vr d-none d-lg-flex h-50 mx-lg-2 taha-text-white align-self-center"></div>
+              <span id="light-dark-mode" class="nav-link px-3 py-2 ms-3">
+                <i class="fa fa-sun-o"></i>
+                <i class="fa fa-moon-o" style="display: none;"></i>
+              </span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!---------- section-two ---------->
+    <section id='section-two' class="section-two sec-t clearfix z-2">
+      <div class="container">
+        <div class="row text-center align-items-center flex-column">
+          <header class="d-flex align-items-center flex-column">
+            <h1 class="fbd452c7">Taha Kasramehr<br>Web Developer,<br>
+              <span class="um-gradient-text">Graphic Designer</span>
+            </h1>
+            <p class="fc910df7 py-3">I design, build, edit, and publish special <br> and beautiful websites as part of my job.</p>
+          </header>
+        </div>
+      </div>
+    </section>
+    <!---------- section-three ---------->
+    <section id='section-three' class="section-three sec-t clearfix z-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center text-center flex-column pb-4">
+            <span class="up-title pb-2">
+              MBTI
+            </span>
+            <h3 class="section-title">
+              Myers Briggs Personality Test
+            </h3>
+            <span class="sub-title">
+              Get to know me better
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 pb-4 pb-md-0">
+            <ul class="p-4 taha-bbg">
+              <li>
+                <span class="title-color">Personality Type : </span>
+                <span class="text-color"> INTJ</span>
+              </li>
+              <li>
+                <span class="title-color">Title : </span>
+                <span class="text-color"> The Architect</span>
+              </li>
+              <li>
+                <span class="title-color">Description : </span>
+                <span class="text-color"> Introverted, Intuitive, Logical, Judging</span>
+              </li>
+              <li>
+                <span class="title-color">Category : </span>
+                <span class="text-color"> Logicians, Conceptualizers, Scholars</span>
+              </li>
+              <li>
+                <span class="title-color">Motto : </span>
+                <span class="text-color"> Competence + Independence = Excellence</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="d-flex flex-column align-items personality p-4 taha-bbg">
+
+              <span class="tak-article-two-top-progress-and-name mb-2 mb-md-0">
+                <span class="tak-article-two-top-left-skill-name-darsad">
+                  <span>Introverted : 84%</span>
+                  <span>Extroverted : %16</span>
+                </span>
+                <progress class="tak-progress-bar tak-article-two-top-left-progress-bar" value="84" max="100"></progress>
+              </span>
+
+              <span class="tak-article-two-top-progress-and-name mb-2 mb-md-0">
+                  <span class="tak-article-two-top-left-skill-name-darsad">
+                    <span>Intuitive : 78%</span>
+                    <span>Sensory : %22</span> 
+                  </span>
+                <progress class="tak-progress-bar tak-article-two-top-left-progress-bar" value="78" max="100"></progress>
+              </span>
+
+              <span class="tak-article-two-top-progress-and-name mb-2 mb-md-0">
+                <span class="tak-article-two-top-left-skill-name-darsad">
+                  <span>Emotional : 32%</span>
+                  <span>Logical : %68</span>
+                </span>
+                <progress class="tak-progress-bar tak-article-two-top-left-progress-bar" value="32" max="100"></progress>
+              </span>
+
+              <span class="tak-article-two-top-progress-and-name">
+                <span class="tak-article-two-top-left-skill-name-darsad">
+                  <span>Judging : 76%</span>  
+                  <span>Perceptive : %24</span>
+                </span>
+                <progress class="tak-progress-bar tak-article-two-top-left-progress-bar" value="76" max="100"></progress>
+              </span>
+
+          </div>
+          </div>
+        </div>
+        <div class="row py-4 text-center">
+          <div class="col-4 col-lg-2 pb-4">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/isaac-newton.jpg" alt="اسحاق نیوتون" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">Isaac<br>Newton</span>
+              </div>
+          </div>
+          <div class="col-4 col-lg-2 pb-3">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/stephen-hawking.jpg" alt="استفان هاوکینگ" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">Stephen<br>Hawking</span>
+              </div>
+          </div>
+          <div class="col-4 col-lg-2 pb-4">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/nikola-tesla.jpg" alt="نیکلا تسلا" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">Nikola<br>Tesla</span>
+              </div>
+          </div>
+          <div class="col-4 col-lg-2 pb-4">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/nietzsche.jpg" alt="فردریش نیچه" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">Friedrich<br>Nietzsche</span>
+              </div>
+          </div>
+          <div class="col-4 col-lg-2 pb-4">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/mark-zuckerberg.jpg" alt="مارک زاکربرگ" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">Mark<br>Zuckerberg</span>
+              </div>
+          </div>
+          <div class="col-4 col-lg-2 pb-4">
+              <div class="article-two-intj-person-img taha-bbg d-flex flex-column align-items-center p-md-4 p-3">
+                  <img src="public/images/john-nash.jpg" alt="جان نش" class="rounded-circle pb-3">
+                  <span class="tak-person-like-me-nameng">John<br>Nash</span>
+              </div>
+          </div>
+      </div>
+      </div>
+      
+    </section>
+    <!---------- section-three-zero-point-five ---------->
+    <section id="section-three-half" class="section-three-half sec-t clearfix z-2">
+      <div class="container">
+        <div class="row m-0 position-relative">
+          <div class="col-12 taha-rezome-one d-flex justify-content-center position-sticky">
+            <div class="col-12 d-flex align-items-center text-center flex-column pb-4">
+              <span class="up-title pb-2">
+                Bio
+              </span>
+              <h3 class="section-title">
+                Some information about me
+              </h3>
+              <span class="sub-title">
+                You might like to know
+              </span>
+            </div>
+          </div>
+          <div class="col-12 taha-h100">
+
+          </div>
+          <div class="col-12 p-0 taha-rezome-two d-flex align-items-center justify-content-start position-sticky">
+            <div class="col-12 col-md-4 pe-0 pe-md-3">
+              <div class="col-12 trt taha-rezome-cart pf-cart d-flex align-items-center flex-column justify-content-between p-2">
+                <div></div>
+                <div class="p-2 rounded-circle tk-img-box">
+                  <img src="./public/images/tahaimg.jpg" alt="" class="taha-profile-img rounded-circle">
+                </div>
+                <div class="z-1 text-center">
+                  <h3 class="sec-title">Taha Kasramehr</h3>
+                  <span class="sub-title lit-font">
+                    Web Developer & Graphic Designer
+                  </span>
+                </div> 
+                <div class="z-1 text-center">
+                  <h5 class="sec-title font-weight-bold pt-3">1995   August</h5>
+                  <span class="sub-title lit-font">
+                    Tehran / Iran
+                  </span>
+                </div> 
+                <div class="socials d-flex align-items-center justify-content-center py-3">
+                  <i class="fa fa-linkedin px-3" aria-hidden="true"></i>
+                  <i class="fa-brands fa-github px-3"></i>
+                  <i class="fa fa-instagram px-3" aria-hidden="true"></i>
+                  <i class="fa fa-whatsapp px-3" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 taha-h100">
+
+          </div>
+          <div class="col-12 p-0 taha-rezome-two taha-rezome-three  d-flex align-items-center justify-content-center position-sticky">
+            <div class="col-12 col-md-4  px-0 px-md-1">
+              <div class="col-12 trt taha-rezome-cart d-flex align-items-center flex-column justify-content-between p-2">
+                <div></div>
+                <div class="z-1 text-center">
+                  <h5 class="sec-title" onclick="fullscreen()">Diploma</h5>
+                  <span class="sub-title lit-font">
+                    mathematics and physics
+                  </span>
+                </div> 
+                <hr class="taha-hr">
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Bachelor's degree</h5>
+                  <span class="sub-title lit-font">
+                    in industrial engineering
+                  </span>
+                  <br>
+                  <span class="sub-title lit-font">
+                    Parand Azad University
+                  </span>
+                </div> 
+                <hr class="taha-hr">
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Advanced courses</h5>
+                  <span class="sub-title lit-font">
+                    Web design
+                  </span>
+                  <br>
+                  <span class="sub-title lit-font">
+                    Mojtama Fani Tehran
+                  </span>
+                </div> 
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 taha-h100">
+
+          </div>
+          <div class="col-12 p-0 taha-rezome-two taha-rezome-four position-sticky d-flex align-items-center justify-content-end">
+            <div class="col-12 col-md-4 ps-0 ps-md-3">
+              <div class="col-12 trt taha-rezome-cart d-flex align-items-center flex-column justify-content-between p-2">
+                <div></div>
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Store Manager</h5>
+                  <span class="sub-title lit-font">
+                    2 years 
+                  </span>
+                  <span class="sub-title lit-font">
+                     (Nau Italian eyewear)
+                  </span>
+                </div> 
+                <hr class="taha-hr">
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Graphic Designer and Multimedia</h5>
+                  <span class="sub-title lit-font">
+                    1 year
+                  </span>
+                  <span class="sub-title lit-font">
+                    (GoldenLine & CPME)
+                  </span>
+                </div> 
+                <hr class="taha-hr">
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Programming Intern</h5>
+                  <span class="sub-title lit-font">
+                    1 year
+                  </span>
+                  <span class="sub-title lit-font">
+                    (Balvin Co.)
+                  </span>
+                </div> 
+                <hr class="taha-hr">
+                <div class="z-1 text-center">
+                  <h5 class="sec-title">Web Designer and Manager</h3>
+                  <span class="sub-title lit-font">
+                    2 years
+                  </span>
+                  <span class="sub-title lit-font">
+                    (Polydent)
+                  </span>
+                </div> 
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 taha-h100">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------- section-four ---------->
+    <section id='section-four' class="section-four sec-t z-2">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col tk-border taha-bbg d-flex p-3">
+          <!-- <div class="col-12 col-md-6 p-3 p-md-4 col-md-6">
+            <img src="./public/images/ogsxa8h0dl6bydus.png" class="w-100" alt="" srcset="">
+          </div> -->
+          <div class="col-12 p-3 p-md-3">
+            <div class="col-12 d-flex align-items-left flex-column text-center p-5 mb-5 taha-bg-two">
+              <span class="up-title pb-2">
+                My work as a
+              </span>
+              <h3 class="section-title">
+                Graphic Designer & Web Developer
+              </h3>
+              <span class="sub-title">
+                Collaborating with me on a project involves the following steps:
+              </span>
+            </div>
+            <div class="col-12 d-flex">
+              <div class="col-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="um-icon _bbe67330" fill="rgb(115, 38, 239)" width="24" height="24" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path></svg>
+              </div>
+              <div class="col ps-3 text-justify pb-4">
+                <h4 class="sec-title">Conducting meetings and assessing needs</h4>
+                <span class="sub-title lit-font">
+                  By holding meetings, insights, requirements and feedback can be gathered from customers or stakeholders. This process helps to understand the project scope, objectives and desired results. In addition, needs assessment involves analyzing specific project requirements, preferences, and constraints to adjust the design and development process accordingly. This title highlights the importance of effective communication, collaboration and strategic planning in creating visually impactful designs and functional websites.
+                </span>
+              </div>
+            </div>
+            <div class="col-12 d-flex">
+              <div class="col-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="um-icon _bbe67330" fill="rgb(115, 38, 239)" width="24" height="24" viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"></path></svg>
+              </div>
+              <div class="col ps-3 sec-title-parent text-justify pb-4">
+                <h4 class="sec-title">Reach consensus on pricing and services</h4>
+                <span id="lit-font" class="sub-title lit-font">
+                  It signifies the importance of establishing mutual agreement on the cost of services provided and the specific offerings rendered. This procedure is vital for upholding transparency, defining expectations, and cultivating favorable client relationships.  
+                  The project's timeline is established during this phase.
+                </span>
+              </div>
+            </div>
+            <div class="col-12 d-flex">
+              <div class="col-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="um-icon _bbe67330" fill="rgb(115, 38, 239)" width="24" height="24" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg>
+              </div>
+              <div class="col ps-3 text-justify pb-4">
+                <h4 class="sec-title">Designing, implementing, and delivering</h4>
+                <span class="sub-title lit-font">
+                  The design and implementation of services occur in distinct phases within the agreed time frame, with each phase concluding before transitioning to the next.  
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!---------- section-five ---------->
+    <section id='section-five' class="section-five sec-t z-2">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col tk-border taha-bbg d-flex flex-wrap-reverse  p-0 p-md-5">
+            <div class="col-12 col-md-6">
+              <div class="col-12 d-flex align-items-center justify-content-center h-100 flex-column py-5">
+                <span class="up-title pb-2">
+                  My skills as a
+                </span>
+                <h3 class="section-title">
+                  Coder & Designer
+                </h3>
+                <span class="sub-title text-center px-5">
+                  Softwares, programming languages, and libraries that I am familiar with.
+                </span>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="swiper taha pe-md-5">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide photoshop-bg verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/PHOTOSHOPB.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide illustration-bg verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/ILLUSTRATORB.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <!--inside-->
+                    
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/JS2.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/JQUERY.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/NODEJS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/EXPRESSJS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/REACTJS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/NEXTJS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/REDUX (2).png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/THREEJS (2).png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/ANTDESIGN (2).png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/PUGJS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/HANDLEBARSJS.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/HTML.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/css.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/LESS (2).png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/SASS.png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/BOOTSTRAP (2).png" alt="">
+          </div>
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/TAILWIND.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/WORDPRESS.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/GITHUB.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                  <div class="swiper-slide verticl-swiper-slide">
+                    <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper taha-silder-two"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide horizontal-swiper-slide">
+            <img data-swiper-parallax="-300" src="public/images/MONGODB (2).png" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------- section-six ---------->
+    <section id='section-six' class="section-six sec-t z-2">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto text-center">
+            <p class="quote">
+              <!-- The beauty of life lies in our ability to create art and innovation. -->
+              "Simplicity is the ultimate sophistication."
+            </p>
+            <span class="author">
+              - Leonardo da Vinci
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------- section-seven ---------->
+    <section id='section-seven' class="section-seven sec-t z-2">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col d-flex justify-content-between flex-wrap p-5 taha-bg">
+            <div class="col-12 col-md-auto">
+              <p class="section-title">Do you have any interesting ideas?</p>
+              <p class="sub-title">
+                I can help you, contact me for a free consultation
+              </p>
+            </div>
+            <div class="col-12 col-md-auto h-md-100 d-flex align-items-center">
+              <button onclick="myfunv()" type="button" class="taha-btn px-3 py-2">
+                Call Me
+                <svg width="15px" viewBox="0 0 15 12" xmlns="http://www.w3.org/2000/svg"><path d="M9.6 7H1a1 1 0 1 1 0-2h8.6L7 2.4A1 1 0 0 1 8.4 1l4.3 4.2c.2.3.3.5.3.8 0 .3-.1.5-.3.7L8.4 11A1 1 0 1 1 7 9.5L9.6 7z" fill="currentColor"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="col-12">
+        <div class="container text-center">
+          <span>Designed and developed with 💜 by Taha Kasramehr.<br>© 2024 All rights reserved</span>
+        </div>
+      </div>
+    </footer>
+  <div class="scroll-down-parent">
+    <div class="scroll-down"></div>
+  </div>
+  
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--cs JS-->
+    <script src="app.js"></script>
+</body>
+</html>

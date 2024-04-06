@@ -1,0 +1,50 @@
+/****Fonts****/
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN THIN.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN THIN.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN LIGHT.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN LIGHT.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/IRANYEKANREGULAR.woff') format('woff2'),    url('public/fonts/IRANYEKANREGULAR.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN MEDIUM.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN MEDIUM.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN BOLD.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN BOLD.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN EXTRABOLD.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN EXTRABOLD.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN BLACK.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN BLACK.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iranyekan", sans-serif;
+    src: url('public/fonts/QS_IRANYEKAN EXTRABLACK.woff2') format('woff2'),    url('public/fonts/QS_IRANYEKAN EXTRABLACK.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+/****END Fonts****/
